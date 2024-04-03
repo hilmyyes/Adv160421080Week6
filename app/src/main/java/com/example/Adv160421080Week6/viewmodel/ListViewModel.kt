@@ -27,7 +27,7 @@ class ListViewModel(application: Application):AndroidViewModel(application)
         brandLoadErrorLD.value = false
 
         queue = Volley.newRequestQueue(getApplication())
-        val url = "http://10.0.2.2/cars.json"
+        val url = "http://10.0.2.2/brands.json"
 
         val stringRequest = StringRequest(
             Request.Method.GET, url,{

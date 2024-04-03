@@ -1,0 +1,131 @@
+[
+    {
+        "id": 1,
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2022,
+        "colors": ["Red", "Blue", "White"],
+        "specs": {
+            "engine": "2.0L Inline-4",
+            "transmission": "Automatic",
+            "horsepower": 169
+        },
+        "images": "https://loremflickr.com/320/240/cars?lock=1"
+    },
+    {
+        "id": 2,
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2023,
+        "colors": ["Black", "Silver", "Gray"],
+        "specs": {
+            "engine": "1.5L Turbocharged Inline-4",
+            "transmission": "CVT",
+            "horsepower": 180
+        },
+        "images": "https://loremflickr.com/320/240/cars?lock=2"
+    },
+    {
+        "id": 3,
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2022,
+        "colors": ["Yellow", "Orange", "Black"],
+        "specs": {
+            "engine": "5.0L V8",
+            "transmission": "Manual",
+            "horsepower": 450
+        },
+        "images": "https://loremflickr.com/320/240/cars?lock=3"
+    },
+    {
+        "id": 4,
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 2024,
+        "colors": ["White", "Blue", "Red"],
+        "specs": {
+            "engine": "6.2L V8",
+            "transmission": "Automatic",
+            "horsepower": 420
+        },
+        "images": "https://loremflickr.com/320/240/cars?lock=4"
+    },
+    {
+        "id": 5,
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 2023,
+        "colors": ["Black", "White", "Gray"],
+        "specs": {
+            "engine": "2.0L Inline-4",
+            "transmission": "Automatic",
+            "horsepower": 255
+        },
+        "images": "https://loremflickr.com/320/240/cars?lock=5"
+    },
+    {
+        "id": 6,
+        "make": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2024,
+        "colors": ["Silver", "Black", "Blue"],
+        "specs": {
+            "engine": "2.0L Inline-4",
+            "transmission": "Automatic",
+            "horsepower": 255
+        },
+        "images": "https://loremflickr.com/320/240/cars?lock=6"
+    },
+    {
+        "id": 7,
+        "make": "Audi",
+        "model": "A4",
+        "year": 2022,
+        "colors": ["White", "Black", "Red"],
+        "specs": {
+            "engine": "2.0L Inline-4",
+            "transmission": "Automatic",
+            "horsepower": 201
+        },
+        "images": "https://loremflickr.com/320/240/cars?lock=7"
+    },
+    {
+        "id": 8,
+        "make": "Tesla",
+        "model": "Model 3",
+        "year": 2023,
+        "colors": ["Red", "Blue", "White"],
+        "specs": {
+            "electric": true,
+            "range": "310 miles"
+        },
+        "images": "https://loremflickr.com/320/240/cars?lock=8"
+    },
+    {
+        "id": 9,
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 2022,
+        "colors": ["Gray", "Silver", "Black"],
+        "specs": {
+            "engine": "2.5L Inline-4",
+            "transmission": "CVT",
+            "horsepower": 188
+        },
+        "images": "https://loremflickr.com/320/240/cars?lock=9"
+    },
+    {
+        "id": 10,
+        "make": "Hyundai",
+        "model": "Elantra",
+        "year": 2024,
+        "colors": ["Blue", "White", "Black"],
+        "specs": {
+            "engine": "2.0L Inline-4",
+            "transmission": "Automatic",
+            "horsepower": 147
+        },
+        "images": "https://loremflickr.com/320/240/cars?lock=10"
+    }
+]

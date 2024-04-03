@@ -5,8 +5,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.Adv160421080Week6.databinding.BrandListItemBinding
 import com.example.Adv160421080Week6.model.Brand
+import com.squareup.picasso.Picasso
 
-class CarListAdapter (val brandList: ArrayList<Brand>):RecyclerView.Adapter<CarListAdapter.BrandViewHolder>(){
+class BrandListAdapter (val brandList: ArrayList<Brand>):RecyclerView.Adapter<BrandListAdapter.BrandViewHolder>(){
     class BrandViewHolder(var binding: BrandListItemBinding): RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BrandViewHolder {
@@ -36,7 +37,11 @@ class CarListAdapter (val brandList: ArrayList<Brand>):RecyclerView.Adapter<CarL
             holder.binding.txtProduct.text = product?.joinToString(" | ")
         }
 
-        //belom bisa import gambar
+        //Untuk Import Gambar
+        val url = brandList[position].images
+        val builder = Picasso.Builder(holder.itemView.context)
+        builder.listener { picasso, url, exception ->  exception.printStackTrace() }
+        Picasso.get().load(url).into(holder.binding.imageView)
     }
 
     fun updateBrandList(newBrandList: ArrayList<Brand>){

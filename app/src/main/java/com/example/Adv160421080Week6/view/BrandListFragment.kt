@@ -11,9 +11,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.Adv160421080Week6.databinding.FragmentBrandListBinding
 import com.example.Adv160421080Week6.viewmodel.ListViewModel
 
-class CarListFragment : Fragment() {
+class BrandListFragment : Fragment() {
     private lateinit var viewModel: ListViewModel
-    private val brandListAdapter = CarListAdapter(arrayListOf())
+    private val brandListAdapter = BrandListAdapter(arrayListOf())
     private lateinit var  binding: FragmentBrandListBinding
 
     override fun onCreateView(

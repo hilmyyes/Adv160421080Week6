@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.Adv160421080Week6.databinding.FragmentBrandDetailBinding
 
-class CarDetailFragment : Fragment() {
+class BrandDetailFragment : Fragment() {
     private lateinit var  binding: FragmentBrandDetailBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
