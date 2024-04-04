@@ -1,15 +1,15 @@
 package com.example.Adv160421080Week6.model
 
-data class Brand(
+data class Artist(
     var id:String?,
     var name:String?,
     var founded:String?,
     var products:List<String>?,
     var images:String?,
-    var founder:BrandFounder?
+    var founder:ArtistDetail?
 )
 
-data class BrandFounder(
-    var name:String?,
+data class ArtistDetail(
+    var place:String?,
     var birth_year:String?
 )

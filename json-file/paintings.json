@@ -1,0 +1,107 @@
+[
+    {
+        "id": "artst_001",
+        "name": "Leonardo da Vinci",
+        "founded": "1452",
+        "products": [
+            "Mona Lisa",
+            "The Last Supper",
+            "Vitruvian Man"
+        ],
+        "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4oaybiHxDxvKLcBNZluD-3fKlKQmPxGfHfQwfGTBv2g&s",
+        "founder": {
+            "place": "Italy",
+            "birth_year": "1452"
+        }
+    },
+    {
+        "id": "artst_002",
+        "name": "Vincent van Gogh",
+        "founded": "1853",
+        "products": [
+            "The Starry Night",
+            "Sunflowers",
+            "Irises"
+        ],
+        "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRm9RovmsX2GxhwwvpslAZCllFY1wbXMjhQVbovjd1Fw&s",
+        "founder": {
+            "place": "Spanyol",
+            "birth_year": "1853"
+        }
+    },
+    {
+        "id": "artst_003",
+        "name": "Pablo Picasso",
+        "founded": "1881",
+        "products": [
+            "Guernica",
+            "Les Demoiselles d'Avignon",
+            "The Weeping Woman"
+        ],
+        "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4oaybiHxDxvKLcBNZluD-3fKlKQmPxGfHfQwfGTBv2g&s",
+        "founder": {
+            "place": "Italy",
+            "birth_year": "1881"
+        }
+    },
+    {
+        "id": "artst_004",
+        "name": "Michelangelo",
+        "founded": "1475",
+        "products": [
+            "David",
+            "Sistine Chapel ceiling",
+            "Pieta"
+        ],
+        "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4oaybiHxDxvKLcBNZluD-3fKlKQmPxGfHfQwfGTBv2g&s",
+        "founder": {
+            "place": "Michelangelo",
+            "birth_year": "1475"
+        }
+    },
+    {
+        "id": "artst_005",
+        "name": "Claude Monet",
+        "founded": "1840",
+        "products": [
+            "Water Lilies",
+            "Impression, Sunrise",
+            "Rouen Cathedral series"
+        ],
+        "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4oaybiHxDxvKLcBNZluD-3fKlKQmPxGfHfQwfGTBv2g&s",
+        "founder": {
+            "place": "Claude Monet",
+            "birth_year": "1840"
+        }
+    },
+    {
+        "id": "artst_006",
+        "name": "Rembrandt",
+        "founded": "1606",
+        "products": [
+            "The Night Watch",
+            "The Anatomy Lesson of Dr. Nicolaes Tulp",
+            "Self-Portrait with Two Circles"
+        ],
+        "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4oaybiHxDxvKLcBNZluD-3fKlKQmPxGfHfQwfGTBv2g&s",
+        "founder": {
+            "place": "Rembrandt",
+            "birth_year": "1606"
+        }
+    },
+    {
+        "id": "artst_007",
+        "name": "Salvador Dalí",
+        "founded": "1904",
+        "products": [
+            "The Persistence of Memory",
+            "The Elephants",
+            "The Sacrament of the Last Supper"
+        ],
+        "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4oaybiHxDxvKLcBNZluD-3fKlKQmPxGfHfQwfGTBv2g&s",
+        "founder": {
+            "place": "Salvador Dalí",
+            "birth_year": "1904"
+        }
+    }
+]

@@ -8,19 +8,19 @@ import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.Adv160421080Week6.databinding.FragmentBrandListBinding
+import com.example.Adv160421080Week6.databinding.FragmentArtistListBinding
 import com.example.Adv160421080Week6.viewmodel.ListViewModel
 
-class BrandListFragment : Fragment() {
+class ArtistListFragment : Fragment() {
     private lateinit var viewModel: ListViewModel
-    private val brandListAdapter = BrandListAdapter(arrayListOf())
-    private lateinit var  binding: FragmentBrandListBinding
+    private val brandListAdapter = ArtistListAdapter(arrayListOf())
+    private lateinit var  binding: FragmentArtistListBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentBrandListBinding.inflate(inflater, container, false)
+        binding = FragmentArtistListBinding.inflate(inflater, container, false)
         return  binding.root
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

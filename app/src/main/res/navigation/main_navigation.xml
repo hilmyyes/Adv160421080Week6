@@ -7,8 +7,8 @@
 
     <fragment
         android:id="@+id/brandListFragment"
-        android:name="com.example.Adv160421080Week6.view.BrandListFragment"
+        android:name="com.example.Adv160421080Week6.view.ArtistListFragment"
         android:label="fragment_brand_list"
-        tools:layout="@layout/fragment_brand_list" />
+        tools:layout="@layout/fragment_artist_list" />
 
 </navigation>

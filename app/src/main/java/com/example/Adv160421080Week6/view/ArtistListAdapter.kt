@@ -3,15 +3,15 @@ package com.example.Adv160421080Week6.view
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.Adv160421080Week6.databinding.BrandListItemBinding
-import com.example.Adv160421080Week6.model.Brand
+import com.example.Adv160421080Week6.databinding.ArtistListItemBinding
+import com.example.Adv160421080Week6.model.Artist
 import com.squareup.picasso.Picasso
 
-class BrandListAdapter (val brandList: ArrayList<Brand>):RecyclerView.Adapter<BrandListAdapter.BrandViewHolder>(){
-    class BrandViewHolder(var binding: BrandListItemBinding): RecyclerView.ViewHolder(binding.root)
+class ArtistListAdapter (val brandList: ArrayList<Artist>):RecyclerView.Adapter<ArtistListAdapter.BrandViewHolder>(){
+    class BrandViewHolder(var binding: ArtistListItemBinding): RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BrandViewHolder {
-        val binding = BrandListItemBinding.inflate(
+        val binding = ArtistListItemBinding.inflate(
             LayoutInflater.from(parent.context),
             parent,
             false
@@ -29,7 +29,7 @@ class BrandListAdapter (val brandList: ArrayList<Brand>):RecyclerView.Adapter<Br
             txtName.text = brandList[position].name
             txtFounded.text = "From " + brandList[position].founded
             txtFounder.text = brandList[position].founder?.let { brandFounder->
-                brandFounder.name + " (${brandFounder.birth_year})"
+                brandFounder.place + " (${brandFounder.birth_year})"
             }
         }
 
@@ -44,7 +44,7 @@ class BrandListAdapter (val brandList: ArrayList<Brand>):RecyclerView.Adapter<Br
         Picasso.get().load(url).into(holder.binding.imageView)
     }
 
-    fun updateBrandList(newBrandList: ArrayList<Brand>){
+    fun updateBrandList(newBrandList: ArrayList<Artist>){
         brandList.clear()
         brandList.addAll(newBrandList)
         notifyDataSetChanged()

@@ -8,13 +8,13 @@ import com.android.volley.Request
 import com.android.volley.RequestQueue
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
-import com.example.Adv160421080Week6.model.Brand
+import com.example.Adv160421080Week6.model.Artist
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
 class ListViewModel(application: Application):AndroidViewModel(application)
 {
-    val brandsLD = MutableLiveData<ArrayList<Brand>>()
+    val brandsLD = MutableLiveData<ArrayList<Artist>>()
     val brandLoadErrorLD = MutableLiveData<Boolean>()
     val loadingLD = MutableLiveData<Boolean>()
 
@@ -22,18 +22,18 @@ class ListViewModel(application: Application):AndroidViewModel(application)
     private  var queue: RequestQueue? = null
 
     fun refresh(){
-        Log.d("CEKMASUK", "masukVolley")
+        Log.d("CEKMASUK", "masuk Volley")
         loadingLD.value = true
         brandLoadErrorLD.value = false
 
         queue = Volley.newRequestQueue(getApplication())
-        val url = "http://10.0.2.2/brands.json"
+        val url = "http://10.0.2.2/paintings.json"
 
         val stringRequest = StringRequest(
             Request.Method.GET, url,{
-                val sType = object : TypeToken<List<Brand>>() { }.type
-                val result = Gson().fromJson<List<Brand>>(it, sType)
-                brandsLD.value = result as ArrayList<Brand>?
+                val sType = object : TypeToken<List<Artist>>() { }.type
+                val result = Gson().fromJson<List<Artist>>(it, sType)
+                brandsLD.value = result as ArrayList<Artist>?
                 loadingLD.value = false
                 Log.d("showvoley", result.toString())
             },
